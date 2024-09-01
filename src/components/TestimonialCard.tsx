@@ -9,7 +9,7 @@ const TestimonialCard = () => {
         <div className="font-light">Description</div>
       </div>
 
-      <div className="flex items-center">
+      <div className="flex items-center  mt-5">
         <div className="rounded-full border border-black">
           <img
             className="rounded-full border border-black"
@@ -20,7 +20,7 @@ const TestimonialCard = () => {
           />
         </div>
 
-        <div className="flex flex-col items-center ml-3 mt-5">
+        <div className="flex flex-col items-center ml-3">
           <div className="font-bold text-sm">Name</div>
           <div className="font-light text-sm">Job Title</div>
         </div>
