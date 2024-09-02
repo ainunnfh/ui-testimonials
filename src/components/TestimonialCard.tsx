@@ -11,7 +11,7 @@ const TestimonialCard = () => {
           <IoStarSharp className="bg-green-400 rounded-sm p-0.5 text-white" />
           <IoStarSharp className="bg-green-400 rounded-sm p-0.5 text-white" />
         </div>
-        <div className="font-bold">Title</div>
+        <div className="font-bold mt-2">Title</div>
         <div className="font-light">Description</div>
       </div>
 
