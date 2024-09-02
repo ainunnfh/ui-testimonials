@@ -7,7 +7,9 @@ export default function Home() {
         What Our Costumers Are Saying
       </div>
 
-      <div className="mt-8">
+      <div className=" grid grid-cols-3 gap-3 justify-center mt-8">
+        <TestimonialCard />
+        <TestimonialCard />
         <TestimonialCard />
       </div>
     </div>
