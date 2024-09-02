@@ -1,10 +1,12 @@
 import React from "react";
-
+import { IoStarSharp } from "react-icons/io5";
 const TestimonialCard = () => {
   return (
-    <div className="bg-green-300 rounded-lg p-5">
+    <div className="bg-green-100 rounded-lg p-5 shadow-md shadow-green-500">
       <div>
-        <div>⭐⭐⭐⭐⭐</div>
+        <div className="bg-green-300 inline-block rounded-sm p-0.5">
+          <IoStarSharp color="#ffffff" />
+        </div>
         <div className="font-bold">Title</div>
         <div className="font-light">Description</div>
       </div>
