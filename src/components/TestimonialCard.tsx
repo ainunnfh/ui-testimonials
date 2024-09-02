@@ -4,8 +4,12 @@ const TestimonialCard = () => {
   return (
     <div className="bg-green-100 rounded-lg p-5 shadow-md shadow-green-500">
       <div>
-        <div className="bg-green-300 inline-block rounded-sm p-0.5">
-          <IoStarSharp color="#ffffff" />
+        <div className="flex gap-1 rounded-sm p-0.5">
+          <IoStarSharp className="bg-green-400 rounded-sm p-0.5 text-white" />
+          <IoStarSharp className="bg-green-400 rounded-sm p-0.5 text-white" />
+          <IoStarSharp className="bg-green-400 rounded-sm p-0.5 text-white" />
+          <IoStarSharp className="bg-green-400 rounded-sm p-0.5 text-white" />
+          <IoStarSharp className="bg-green-400 rounded-sm p-0.5 text-white" />
         </div>
         <div className="font-bold">Title</div>
         <div className="font-light">Description</div>
