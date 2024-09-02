@@ -8,7 +8,7 @@ import {
 import { IoIosArrowDropleft } from "react-icons/io";
 export default function Home() {
   return (
-    <div className="flex flex-col p-10">
+    <div className="flex flex-col p-10 min-h-screen justify-center">
       <div className="flex justify-between">
         <div className=" flex flex-col text-2xl font-bold justify-between">
           What Our Costumers
