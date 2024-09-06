@@ -2,7 +2,7 @@ import React from "react";
 import { IoStarSharp } from "react-icons/io5";
 const TestimonialCard = () => {
   return (
-    <div className="bg-green-100 rounded-lg p-5 shadow-md shadow-green-500  hover:cursor-pointer hover:shadow-lg">
+    <div className="bg-green-100 rounded-lg p-5 shadow-md shadow-green-500  hover:cursor-pointer hover:shadow-lg min-w-96">
       <div>
         <div className="flex gap-1 rounded-sm p-0.5">
           <IoStarSharp className="bg-green-400 rounded-sm p-0.5 text-white" />
@@ -15,7 +15,7 @@ const TestimonialCard = () => {
         <div className="font-light">Description</div>
       </div>
 
-      <div className="flex items-center  mt-5">
+      <div className="flex items-center mt-5">
         <div className="rounded-full border border-black">
           <img
             className="rounded-full border border-black"
