@@ -23,8 +23,9 @@ export default function Home() {
           </button>
         </div>
       </div>
-
-      <div className=" grid grid-cols-3 gap-3 justify-center mt-8">
+      <div className="flex flex-row gap-3 justify-around overflow-x-scroll">
+        <TestimonialCard />
+        <TestimonialCard />
         <TestimonialCard />
         <TestimonialCard />
         <TestimonialCard />
